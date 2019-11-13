@@ -1,0 +1,79 @@
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: black;
+	position:absolute;
+	margin: 0px;
+}
+canvas {
+    border: 1px solid #000000;
+}
+nav {
+    display: block;
+    padding: 4px;
+    position: absolute;
+    top: 0;
+    width: 170px;
+    text-align: center;
+    line-height: 35px;
+    font-family: Lucida Console;
+}
+#authorPicks {
+    left: 0;
+}
+#userSaves {
+    right: 0;
+}
+h3 {
+    background-color: #00d;
+    margin: 0 0 4px;
+    width: 100%;
+//    color: #FFC39B;
+    color: #103;
+}
+#save {
+    background-color: #000000;
+    border: 1px solid #0000DD;
+    color: #0000DD;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 100;
+    opacity: 0.6;
+    line-height: 2em;
+}
+#save:hover {
+	background-color: cyan;
+	color: black;
+	border-color: black;
+}
+#save:active {
+	background-color: #07f;
+}
+ul {
+	padding: 0px;
+	opacity: 0;
+}
+#authorPicks > h3{
+	background-color: #700;
+	font-size: 15px;
+//	opacity: .3;
+	color: black;
+}
+li {
+    background-color: #FFE3BB;
+    color: #CB5D1F;
+    margin: 0 0 4px;
+    width: 100%;
+    font-size: 14px;
+    list-style: none;
+	cursor: pointer;
+	opacity: 0.7;
+	line-height: 24px;
+}
+li:hover {
+	background-color: #EFCCC7;
+}

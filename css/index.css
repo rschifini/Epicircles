@@ -1,0 +1,48 @@
+body{
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    background-color: #eff;
+    font-family: 'Spirax', cursive;
+    font-size: x-large;
+
+    padding: 5% 10%;
+    margin: auto;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+img{
+    height: 200px;
+    margin: 0px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
+
+h2{
+    text-align: center;
+    border: 1px solid black;
+    margin: 0px;
+    background-color: white;
+}
+
+.choice{
+    flex-basis: 200px;
+    margin: 2%;
+}
+
+.text{
+    flex-basis: 40%;
+}
