@@ -1,5 +1,5 @@
-var R = [23, 24, 92];
-var w = [5, -1, 13];
+var R = [80, 40, 20];
+var w = [23, 24, 92];
 var canvas, ctx;
 var fillColor = "#00d";
 var randomColors = true;
